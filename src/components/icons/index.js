@@ -15,7 +15,7 @@ const Icons = () => {
       <div className="d-flex justify-content-center">
         <div className="flex-column box_">
           <img src={compra} alt="Facilidade de Compra" />
-          <p className="plus_">FACILIDADE DE COMPRA</p>
+          <p className="plus_ spf_">FACILIDADE DE COMPRA</p>
         </div>
 
         <div className="flex-column box_">

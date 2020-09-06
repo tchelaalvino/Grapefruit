@@ -1,9 +1,15 @@
 .actions_ {
+  margin: 0 10% 13% 10%;
   .box_ {
-    width: 100%;
+    max-width: 40%;
     .plus_ {
+      font-size: .9rem;
       color: #8b6fbd;
+      padding: 0 17px;
       text-transform: uppercase;
+    }
+    .spf_ {
+      padding: 0 25px;
     }
   }
 }
