@@ -1,0 +1,25 @@
+.home_ {
+  height: 100vh;
+  flex-wrap: wrap;
+  .section_ {
+    width: 80%;
+    .title {
+      margin: 1rem;
+      color: #8b6fbd;
+      font-weight: 800;
+      font-size: 2.5rem;
+    }
+    .btn_ {
+      color: #fff;
+      border: 2px solid;
+      transition: 0.85s;
+      border-radius: 20px;
+      padding: .8rem 1.8rem;
+      background-color: #564b69;
+      &:hover, &:focus {
+        color: #564b69;
+        background-color: #fff;
+      }
+    }
+  }
+}
