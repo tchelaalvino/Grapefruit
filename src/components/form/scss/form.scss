@@ -1,6 +1,6 @@
 .form_ {
   .form-group {
-    width: 80%;
+    width: 90%;
     margin: 1rem auto;
     .input_, .select_ {
       border: none;
@@ -34,12 +34,13 @@
     color: #c99061;
   }
   .btn_ {
+    width: 100%;
     color: #fff;
     border: 2px solid;
     transition: 0.85s;
     margin: 10px auto;
     border-radius: 20px;
-    padding: .4rem 10rem;
+    padding: .4rem 7rem;
     background-color: #564b69;
     &:hover, &:focus {
       color: #564b69;

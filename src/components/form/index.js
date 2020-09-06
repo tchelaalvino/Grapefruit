@@ -7,10 +7,9 @@ import './scss/form.scss';
 
 const Form = () => {
   const [estados, setEstado] = useState([]);
-  const [crm, setCrm] = useState('');
-  const [state, setState] = useState();
+  const [crm, setCrm] = useState('00000');
+  const [state, setState] = useState('');
   const [errors, setErrors] = useState({});
-  const [users, setUsers] = useState([]);
 
   useEffect(() => {
     api.get('/localidades/estados').then((res) => {
@@ -35,8 +34,6 @@ const Form = () => {
 
     const success = Object.entries(errors).length;
     if(success === 0) {
-      setUsers();
-      console.log(users);
       toast.success('Sucesso! :)');
     }
 

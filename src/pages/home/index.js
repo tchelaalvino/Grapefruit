@@ -5,7 +5,7 @@ import './scss/home.scss';
 
 const Home = () => {
   return (
-    <div className="home_ d-flex justify-content-center align-items-center">
+    <div className="home_ d-flex justify-content-center align-items-center flex-column">
       <div className="section_">
         <h1 className="title">Avaliação, Marcela Alvino</h1>
           <NavLink to="/maxdoctor">

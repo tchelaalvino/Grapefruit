@@ -4,11 +4,9 @@ import LogDescription from '../../components/logDescription';
 import Icons from '../../components/icons';
 import Form from '../../components/form';
 
-import './scss/mxd.scss';
-
 const MaxDoctor = () => {
   return (
-    <div className="mxd_ container d-flex justify-content-center align-items-center flex-md-column">
+    <div className="container d-flex justify-content-center align-items-center flex-column">
       <LogDescription />
       <Form />
       <Icons />
